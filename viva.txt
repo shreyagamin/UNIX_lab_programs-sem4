@@ -1,0 +1,44 @@
+what is Unix?
+Unix is a powerful, multi-user, and multi-tasking operating system.
+It acts as a bridge between the computer hardware and the user, allowing multiple people to run different programs at the same time.
+
+Why is it important?
+Most modern systems you use today are "Unix-like." Linux, Android, and macOS (MacBooks) are all based on or inspired by the original Unix design. If you know Unix commands, you basically know how to run most of the world's servers and smartphones!
+
+difference between Unix and windows 
+
+
+
+difference between Unix and Linux 
+
+What are the main components of Unix?
+Think of it like an onion with layers.
+Hardware: The physical computer.
+Kernel: The "Heart" of the OS. It talks to the hardware and manages memory.
+Shell: The "Bridge." It takes your commands and gives them to the Kernel.
+User/Utilities: The applications or commands (like ls, mkdir) that we run.
+
+What is a "Shell"?
+The Shell is a command-line interpreter. It is a program that acts as an interface between the user and the kernel. You type a command, the shell interprets it, and tells the kernel what to do.
+Common Shells: Bash (Bourne Again Shell), C Shell (csh), Korn Shell (ksh).
+
+What is the "Kernel"?
+The Kernel is the core part of the operating system. It stays in the computer's memory from the moment you turn it on until you shut it down.
+Main Job: It manages system resources (CPU, RAM, and Disk) and handles communication between software and hardware.
+
+What do you mean by "Everything is a file" in Unix?
+This is a famous Unix concept. It means that Unix treats almost everything—documents, directories, and even hardware like your keyboard or printer—as a stream of bytes (a file).
+Benefit: This allows us to use the same tools (like cat or cp) to handle both data and hardware devices.
+
+Types of ShellIn Unix/Linux, there are several types of shells, but they generally fall into two main families:Bourne Shell Family:sh (Bourne Shell): The original Unix shell.bash (Bourne Again Shell): The most common shell today; it's the default for most Linux systems.ksh (Korn Shell): Combines features of the Bourne and C shells.C Shell Family:csh (C Shell): Uses syntax similar to the C programming language.tcsh: An improved version of the C shell.
+
+How to check which shell you are using
+There are two very simple commands you can tell the examiner:
+
+Command 1: echo $SHELL
+
+This shows the default shell for your user account.
+
+Command 2: echo $0
+
+This is the best way to see the current shell you are actually typing in right now.
