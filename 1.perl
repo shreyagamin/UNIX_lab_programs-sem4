@@ -19,7 +19,7 @@ my $c = $a x $n;
 
 # Print the final result
 print "Result is:\n$c";
-
+/*
 =begin comment
 OUTPUT:
 Enter a string: zoombie
@@ -29,3 +29,4 @@ zoombie
 zoombie
 zoombie
 =end comment
+*/
